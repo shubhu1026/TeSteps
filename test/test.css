@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a,p {
+    text-decoration: none;
+    font-family: roboto;
+    font-size: 1rem;
+}
+
+h1 {
+    margin: 2rem;
+}
+
+body {
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* ======= Question Page =======*/
+.que-contain-box {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 4rem;
+    border-radius: 2rem;
+    border: 2px solid #fff;
+    overflow: hidden;
+    box-shadow: 0 0 5px #8A2387;
+    height: 70vh;
+}
+
+.ques-box {
+    display: flex;
+    justify-content: left;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.ans-box input {
+    background-color: #f3f3f3;
+    width: 1400px;
+    height: 40vh;
+    padding: 1rem;
+    margin: 1rem;
+    margin-top: 0.5rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border: 2px solid #fff;
+    font-size: 1rem;
+}
+
+.que-contain-box button {
+    background: #ee0979;  
+    background: -webkit-linear-gradient(to left, #ff6a00, #ee0979);
+    background: linear-gradient(to left, #ff6a00, #ee0979);
+    color: #fff;
+    justify-content: center;
+    border: 2px solid #fff;
+    width: 200px;
+    height: 60px;
+    border-radius: 2rem;
+    margin: 0 600px;
+    font-size: 1rem;
+}
+
+/* ====== Result Page =======*/
+.result-container {
+    background-color: #fff;
+    display: flex;
+    height: 60vh;
+    width: 60vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+    border-radius: 2rem;
+    border: 2px solid #fff;
+    overflow: hidden;
+    box-shadow: 0 0 5px #8A2387;
+}
+
+.next-question {
+    background: #ee0979;  
+    background: -webkit-linear-gradient(to left, #ff6a00, #ee0979);
+    background: linear-gradient(to left, #ff6a00, #ee0979);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff;
+    width: 250px;
+    height: 60px;
+    border-radius: 2rem;
+    margin: 1rem 3rem;
+}
+
+.stop {
+    background: #ee0979;  
+    background: -webkit-linear-gradient(to left, #ff6a00, #ee0979);
+    background: linear-gradient(to left, #ff6a00, #ee0979);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff;
+    width: 250px;
+    height: 60px;
+    border-radius: 2rem;
+    margin: 1rem 3rem;
+}
+
+span {
+    background: #ee0979;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-size: 8rem;
+    font-family: comfortaa;
+}
+
+.test-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.test-buttons a{
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+.result {
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result h1{
+    font-size: 2.4rem;
+}
+
